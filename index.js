@@ -14,20 +14,30 @@ function toJson(excelName, parent) {
   const len = data.length;
   const columns = data[0];
   let flagIndex = null;
-  let flagValue = parent.value;
+  let name = null;
+  let lock = false;
   for (let i = 1; i < len; i++) {
     const item = data[i];
-    const result = {};
-    item.forEach((v, index) => {
+    let result = {};
+    if (item[0]) {
+      lock = false;
+      name = item[0].replace(/^[0-9]、/, "");
+    } else {
+      const index = parent.children.reduce((acc, cur, index) => {
+        return cur.label === name ? index : acc;
+      }, -1);
+      result = parent.children[index];
+    }
+    item.forEach((v, index, arr) => {
       const key = d[columns[index]];
-      if (index === 0) {
+      if (index === 0 && v) {
         result[key] = v.replace(/^[0-9]、/, "");
         result.icon = "() => null";
         parent.children = parent.children || [];
         parent.children.push(result);
         result.value = `${parent.value}-${parent.children.length}`;
-        flagValue = `${parent.value}-${parent.children.length}`;
       }
+
       if (index === 1) {
         result.children = result.children || [];
         const value = {
@@ -36,8 +46,23 @@ function toJson(excelName, parent) {
         };
         result.children.push(value);
         flagIndex = result.children.length - 1;
-        value.value = `${flagValue}-${result.children.length}`;
-        flagValue = null;
+        value.value = `${parent.value}-${result.children.length}`;
+        if (!arr[0] && !lock) {
+          lock = true;
+          for (let j = i + 1; j < len; j++) {
+            if (data[j][0]) {
+              break;
+            }
+            const vg = {
+              [key]: data[j][1],
+              icon: "() => null",
+              [d["颜色"]]: `rgba(${data[j][2]})`,
+            };
+            result.children.push(vg);
+            const l = result.children.length
+            vg.value = `${result.children[l - 2].value.replace(/-[0-9]{1,}$/, "")}-${l}`
+          }
+        }
       }
       if (index === 2) {
         result.children[flagIndex][key] = `rgba(${v})`;

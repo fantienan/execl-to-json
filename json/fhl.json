@@ -11,8 +11,74 @@
         {
           "label": "水源涵养林",
           "icon": "() => null",
-          "value": "14-1-1",
+          "value": "14-1",
           "colorCode": "rgba(163254115)"
+        },
+        {
+          "label": "水土保持林",
+          "icon": "() => null",
+          "value": "14-2",
+          "colorCode": "rgba(38,115,0)"
+        },
+        {
+          "label": "防风固沙林",
+          "icon": "() => null",
+          "colorCode": "rgba(255,170,0)",
+          "value": "14-3"
+        },
+        {
+          "label": "农田牧场防护林",
+          "icon": "() => null",
+          "colorCode": "rgba(168,168,0)",
+          "value": "14-4"
+        },
+        {
+          "label": "护岸林",
+          "icon": "() => null",
+          "colorCode": "rgba(76,230,0)",
+          "value": "14-5"
+        },
+        {
+          "label": "护路林",
+          "icon": "() => null",
+          "colorCode": "rgba(205205102)",
+          "value": "14-6"
+        },
+        {
+          "label": "其他防护林",
+          "icon": "() => null",
+          "colorCode": "rgba(255235175)",
+          "value": "14-7"
+        },
+        {
+          "label": "防风固沙林",
+          "icon": "() => null",
+          "value": "14-8",
+          "colorCode": "rgba(255,170,0)"
+        },
+        {
+          "label": "农田牧场防护林",
+          "icon": "() => null",
+          "value": "14-9",
+          "colorCode": "rgba(168,168,0)"
+        },
+        {
+          "label": "护岸林",
+          "icon": "() => null",
+          "value": "14-10",
+          "colorCode": "rgba(76,230,0)"
+        },
+        {
+          "label": "护路林",
+          "icon": "() => null",
+          "value": "14-11",
+          "colorCode": "rgba(205205102)"
+        },
+        {
+          "label": "其他防护林",
+          "icon": "() => null",
+          "value": "14-12",
+          "colorCode": "rgba(255235175)"
         }
       ]
     },
@@ -24,8 +90,14 @@
         {
           "label": "天然林",
           "icon": "() => null",
-          "value": "14-2-1",
+          "value": "14-1",
           "colorCode": "rgba(59,277,0)"
+        },
+        {
+          "label": "人工林",
+          "icon": "() => null",
+          "value": "14-2",
+          "colorCode": "rgba(245,191,28)"
         }
       ]
     },
@@ -37,8 +109,43 @@
         {
           "label": "国有",
           "icon": "() => null",
-          "value": "14-3-1",
+          "value": "14-1",
           "colorCode": "rgba(0,128,0)"
+        },
+        {
+          "label": "集体",
+          "icon": "() => null",
+          "value": "14-2",
+          "colorCode": "rgba(254186127)"
+        },
+        {
+          "label": "个人",
+          "icon": "() => null",
+          "colorCode": "rgba(235242153)",
+          "value": "14-3"
+        },
+        {
+          "label": "其他",
+          "icon": "() => null",
+          "colorCode": "rgba(255255115)",
+          "value": "14-4"
+        },
+        {
+          "icon": "() => null",
+          "colorCode": "rgba(undefined)",
+          "value": "14-5"
+        },
+        {
+          "label": "个人",
+          "icon": "() => null",
+          "value": "14-6",
+          "colorCode": "rgba(235242153)"
+        },
+        {
+          "label": "其他",
+          "icon": "() => null",
+          "value": "14-7",
+          "colorCode": "rgba(255255115)"
         }
       ]
     }

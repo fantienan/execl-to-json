@@ -11,8 +11,62 @@
         {
           "label": "极高山",
           "icon": "() => null",
-          "value": "13-1-1",
+          "value": "13-1",
           "colorCode": "rgba(196,10,10)"
+        },
+        {
+          "label": "高山",
+          "icon": "() => null",
+          "value": "13-2",
+          "colorCode": "rgba(214,93,69)"
+        },
+        {
+          "label": "中山",
+          "icon": "() => null",
+          "colorCode": "rgba(224132101)",
+          "value": "13-3"
+        },
+        {
+          "label": "低山",
+          "icon": "() => null",
+          "colorCode": "rgba(235169136)",
+          "value": "13-4"
+        },
+        {
+          "label": "丘陵",
+          "icon": "() => null",
+          "colorCode": "rgba(245203174)",
+          "value": "13-5"
+        },
+        {
+          "label": "平原",
+          "icon": "() => null",
+          "colorCode": "rgba(255235214)",
+          "value": "13-6"
+        },
+        {
+          "label": "中山",
+          "icon": "() => null",
+          "value": "13-7",
+          "colorCode": "rgba(224132101)"
+        },
+        {
+          "label": "低山",
+          "icon": "() => null",
+          "value": "13-8",
+          "colorCode": "rgba(235169136)"
+        },
+        {
+          "label": "丘陵",
+          "icon": "() => null",
+          "value": "13-9",
+          "colorCode": "rgba(245203174)"
+        },
+        {
+          "label": "平原",
+          "icon": "() => null",
+          "value": "13-10",
+          "colorCode": "rgba(255235214)"
         }
       ]
     },
@@ -24,8 +78,98 @@
         {
           "label": "北",
           "icon": "() => null",
-          "value": "13-2-1",
+          "value": "13-1",
           "colorCode": "rgba(242229153)"
+        },
+        {
+          "label": "东北",
+          "icon": "() => null",
+          "value": "13-2",
+          "colorCode": "rgba(242206133)"
+        },
+        {
+          "label": "东",
+          "icon": "() => null",
+          "colorCode": "rgba(209159130)",
+          "value": "13-3"
+        },
+        {
+          "label": "东南",
+          "icon": "() => null",
+          "colorCode": "rgba(129168171)",
+          "value": "13-4"
+        },
+        {
+          "label": "南",
+          "icon": "() => null",
+          "colorCode": "rgba(112,153,89)",
+          "value": "13-5"
+        },
+        {
+          "label": "西南",
+          "icon": "() => null",
+          "colorCode": "rgba(76,230,0)",
+          "value": "13-6"
+        },
+        {
+          "label": "西",
+          "icon": "() => null",
+          "colorCode": "rgba(199212138)",
+          "value": "13-7"
+        },
+        {
+          "label": "西北",
+          "icon": "() => null",
+          "colorCode": "rgba(233255190)",
+          "value": "13-8"
+        },
+        {
+          "label": "无坡向",
+          "icon": "() => null",
+          "colorCode": "rgba(247242255)",
+          "value": "13-9"
+        },
+        {
+          "label": "东",
+          "icon": "() => null",
+          "value": "13-10",
+          "colorCode": "rgba(209159130)"
+        },
+        {
+          "label": "东南",
+          "icon": "() => null",
+          "value": "13-11",
+          "colorCode": "rgba(129168171)"
+        },
+        {
+          "label": "南",
+          "icon": "() => null",
+          "value": "13-12",
+          "colorCode": "rgba(112,153,89)"
+        },
+        {
+          "label": "西南",
+          "icon": "() => null",
+          "value": "13-13",
+          "colorCode": "rgba(76,230,0)"
+        },
+        {
+          "label": "西",
+          "icon": "() => null",
+          "value": "13-14",
+          "colorCode": "rgba(199212138)"
+        },
+        {
+          "label": "西北",
+          "icon": "() => null",
+          "value": "13-15",
+          "colorCode": "rgba(233255190)"
+        },
+        {
+          "label": "无坡向",
+          "icon": "() => null",
+          "value": "13-16",
+          "colorCode": "rgba(247242255)"
         }
       ]
     },
@@ -37,8 +181,62 @@
         {
           "label": "脊",
           "icon": "() => null",
-          "value": "13-3-1",
+          "value": "13-1",
           "colorCode": "rgba(137,68,68)"
+        },
+        {
+          "label": "上",
+          "icon": "() => null",
+          "value": "13-2",
+          "colorCode": "rgba(173138146)"
+        },
+        {
+          "label": "中",
+          "icon": "() => null",
+          "colorCode": "rgba(235201180)",
+          "value": "13-3"
+        },
+        {
+          "label": "下",
+          "icon": "() => null",
+          "colorCode": "rgba(186178143)",
+          "value": "13-4"
+        },
+        {
+          "label": "谷",
+          "icon": "() => null",
+          "colorCode": "rgba(196186145)",
+          "value": "13-5"
+        },
+        {
+          "label": "平地",
+          "icon": "() => null",
+          "colorCode": "rgba(227223209)",
+          "value": "13-6"
+        },
+        {
+          "label": "中",
+          "icon": "() => null",
+          "value": "13-7",
+          "colorCode": "rgba(235201180)"
+        },
+        {
+          "label": "下",
+          "icon": "() => null",
+          "value": "13-8",
+          "colorCode": "rgba(186178143)"
+        },
+        {
+          "label": "谷",
+          "icon": "() => null",
+          "value": "13-9",
+          "colorCode": "rgba(196186145)"
+        },
+        {
+          "label": "平地",
+          "icon": "() => null",
+          "value": "13-10",
+          "colorCode": "rgba(227223209)"
         }
       ]
     },
@@ -50,8 +248,62 @@
         {
           "label": "平",
           "icon": "() => null",
-          "value": "13-4-1",
+          "value": "13-1",
           "colorCode": "rgba(255245190)"
+        },
+        {
+          "label": "缓",
+          "icon": "() => null",
+          "value": "13-2",
+          "colorCode": "rgba(255255145)"
+        },
+        {
+          "label": "斜",
+          "icon": "() => null",
+          "colorCode": "rgba(219,232,0)",
+          "value": "13-3"
+        },
+        {
+          "label": "陡",
+          "icon": "() => null",
+          "colorCode": "rgba(252,201,96)",
+          "value": "13-4"
+        },
+        {
+          "label": "急",
+          "icon": "() => null",
+          "colorCode": "rgba(247,145,64)",
+          "value": "13-5"
+        },
+        {
+          "label": "险",
+          "icon": "() => null",
+          "colorCode": "rgba(235,82,82)",
+          "value": "13-6"
+        },
+        {
+          "label": "斜",
+          "icon": "() => null",
+          "value": "13-7",
+          "colorCode": "rgba(219,232,0)"
+        },
+        {
+          "label": "陡",
+          "icon": "() => null",
+          "value": "13-8",
+          "colorCode": "rgba(252,201,96)"
+        },
+        {
+          "label": "急",
+          "icon": "() => null",
+          "value": "13-9",
+          "colorCode": "rgba(247,145,64)"
+        },
+        {
+          "label": "险",
+          "icon": "() => null",
+          "value": "13-10",
+          "colorCode": "rgba(235,82,82)"
         }
       ]
     },
@@ -63,8 +315,110 @@
         {
           "label": "土壤类型-赤红壤",
           "icon": "() => null",
-          "value": "13-5-1",
+          "value": "13-1",
           "colorCode": "rgba(135,0,0)"
+        },
+        {
+          "label": "土壤类型-红 壤",
+          "icon": "() => null",
+          "value": "13-2",
+          "colorCode": "rgba(186,0,0)"
+        },
+        {
+          "label": "土壤类型-黄 壤",
+          "icon": "() => null",
+          "colorCode": "rgba(230,201,0)",
+          "value": "13-3"
+        },
+        {
+          "label": "土壤类型-黄棕壤",
+          "icon": "() => null",
+          "colorCode": "rgba(230,168,0)",
+          "value": "13-4"
+        },
+        {
+          "label": "土壤类型-黄褐土",
+          "icon": "() => null",
+          "colorCode": "rgba(181,125,0)",
+          "value": "13-5"
+        },
+        {
+          "label": "土壤类型-棕 壤",
+          "icon": "() => null",
+          "colorCode": "rgba(196138112)",
+          "value": "13-6"
+        },
+        {
+          "label": "土壤类型-棕色针叶林土",
+          "icon": "() => null",
+          "colorCode": "rgba(140,102,89)",
+          "value": "13-7"
+        },
+        {
+          "label": "土壤类型-褐 土",
+          "icon": "() => null",
+          "colorCode": "rgba(215184158)",
+          "value": "13-8"
+        },
+        {
+          "label": "土壤类型-草甸土",
+          "icon": "() => null",
+          "colorCode": "rgba(199215158)",
+          "value": "13-9"
+        },
+        {
+          "label": "土壤类型-山地草甸土",
+          "icon": "() => null",
+          "colorCode": "rgba(58,148,68)",
+          "value": "13-10"
+        },
+        {
+          "label": "土壤类型-黄 壤",
+          "icon": "() => null",
+          "value": "13-11",
+          "colorCode": "rgba(230,201,0)"
+        },
+        {
+          "label": "土壤类型-黄棕壤",
+          "icon": "() => null",
+          "value": "13-12",
+          "colorCode": "rgba(230,168,0)"
+        },
+        {
+          "label": "土壤类型-黄褐土",
+          "icon": "() => null",
+          "value": "13-13",
+          "colorCode": "rgba(181,125,0)"
+        },
+        {
+          "label": "土壤类型-棕 壤",
+          "icon": "() => null",
+          "value": "13-14",
+          "colorCode": "rgba(196138112)"
+        },
+        {
+          "label": "土壤类型-棕色针叶林土",
+          "icon": "() => null",
+          "value": "13-15",
+          "colorCode": "rgba(140,102,89)"
+        },
+        {
+          "label": "土壤类型-褐 土",
+          "icon": "() => null",
+          "value": "13-16",
+          "colorCode": "rgba(215184158)"
+        },
+        {
+          "label": "土壤类型-草甸土",
+          "icon": "() => null",
+          "value": "13-17",
+          "colorCode": "rgba(199215158)"
+        },
+        {
+          "label": "土壤类型-山地草甸土",
+          "icon": "() => null",
+          "value": "13-18",
+          "colorCode": "rgba(58,148,68)"
         }
       ]
     }
