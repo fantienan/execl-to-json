@@ -1,0 +1,46 @@
+{
+  "label": "防护林",
+  "value": "14",
+  "icon": "() => null",
+  "children": [
+    {
+      "label": "防护林（亚林种）",
+      "icon": "() => null",
+      "value": "14-1",
+      "children": [
+        {
+          "label": "水源涵养林",
+          "icon": "() => null",
+          "value": "14-1-1",
+          "colorCode": "rgba(163254115)"
+        }
+      ]
+    },
+    {
+      "label": "防护林（起源）",
+      "icon": "() => null",
+      "value": "14-2",
+      "children": [
+        {
+          "label": "天然林",
+          "icon": "() => null",
+          "value": "14-2-1",
+          "colorCode": "rgba(59,277,0)"
+        }
+      ]
+    },
+    {
+      "label": "防护林（权属）",
+      "icon": "() => null",
+      "value": "14-3",
+      "children": [
+        {
+          "label": "国有",
+          "icon": "() => null",
+          "value": "14-3-1",
+          "colorCode": "rgba(0,128,0)"
+        }
+      ]
+    }
+  ]
+}

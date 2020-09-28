@@ -1,0 +1,72 @@
+{
+  "label": "立地土壤",
+  "value": "13",
+  "icon": "() => null",
+  "children": [
+    {
+      "label": "地貌",
+      "icon": "() => null",
+      "value": "13-1",
+      "children": [
+        {
+          "label": "极高山",
+          "icon": "() => null",
+          "value": "13-1-1",
+          "colorCode": "rgba(196,10,10)"
+        }
+      ]
+    },
+    {
+      "label": "坡向",
+      "icon": "() => null",
+      "value": "13-2",
+      "children": [
+        {
+          "label": "北",
+          "icon": "() => null",
+          "value": "13-2-1",
+          "colorCode": "rgba(242229153)"
+        }
+      ]
+    },
+    {
+      "label": "坡位",
+      "icon": "() => null",
+      "value": "13-3",
+      "children": [
+        {
+          "label": "脊",
+          "icon": "() => null",
+          "value": "13-3-1",
+          "colorCode": "rgba(137,68,68)"
+        }
+      ]
+    },
+    {
+      "label": "坡度",
+      "icon": "() => null",
+      "value": "13-4",
+      "children": [
+        {
+          "label": "平",
+          "icon": "() => null",
+          "value": "13-4-1",
+          "colorCode": "rgba(255245190)"
+        }
+      ]
+    },
+    {
+      "label": "土壤类型",
+      "icon": "() => null",
+      "value": "13-5",
+      "children": [
+        {
+          "label": "土壤类型-赤红壤",
+          "icon": "() => null",
+          "value": "13-5-1",
+          "colorCode": "rgba(135,0,0)"
+        }
+      ]
+    }
+  ]
+}

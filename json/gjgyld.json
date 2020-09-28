@@ -1,0 +1,163 @@
+{
+  "label": "国家级公益林（地）",
+  "value": "12",
+  "icon": "() => null",
+  "children": [
+    {
+      "label": "国家级公益林地（地类）",
+      "icon": "() => null",
+      "value": "12-1",
+      "children": [
+        {
+          "label": "乔木林地",
+          "icon": "() => null",
+          "value": "12-1-1",
+          "colorCode": "rgba(56,168,0)"
+        }
+      ]
+    },
+    {
+      "label": "国家级公益林地（保护等级）",
+      "icon": "() => null",
+      "value": "12-2",
+      "children": [
+        {
+          "label": "Ⅰ级保护等级",
+          "icon": "() => null",
+          "value": "12-2-1",
+          "colorCode": "rgba(38,115,0)"
+        }
+      ]
+    },
+    {
+      "label": "国家级公益林地（质量）",
+      "icon": "() => null",
+      "value": "12-3",
+      "children": [
+        {
+          "label": "Ⅰ级",
+          "icon": "() => null",
+          "value": "12-3-1",
+          "colorCode": "rgba(168,112,0)"
+        }
+      ]
+    },
+    {
+      "label": "国家级公益林（类型）",
+      "icon": "() => null",
+      "value": "12-4",
+      "children": [
+        {
+          "label": "针叶林",
+          "icon": "() => null",
+          "value": "12-4-1",
+          "colorCode": "rgba(255,174,0)"
+        }
+      ]
+    },
+    {
+      "label": "国家级公益林（起源）",
+      "icon": "() => null",
+      "value": "12-5",
+      "children": [
+        {
+          "label": "天然林",
+          "icon": "() => null",
+          "value": "12-5-1",
+          "colorCode": "rgba(59,277,0)"
+        }
+      ]
+    },
+    {
+      "label": "国家级公益林（类别）",
+      "icon": "() => null",
+      "value": "12-6",
+      "children": [
+        {
+          "label": "国家级公益林",
+          "icon": "() => null",
+          "value": "12-6-1",
+          "colorCode": "rgba(56,168,0)"
+        }
+      ]
+    },
+    {
+      "label": "国家级公益林（林种）",
+      "icon": "() => null",
+      "value": "12-7",
+      "children": [
+        {
+          "label": "防护林",
+          "icon": "() => null",
+          "value": "12-7-1",
+          "colorCode": "rgba(0,128,0)"
+        }
+      ]
+    },
+    {
+      "label": "国家级公益乔木林（起源）",
+      "icon": "() => null",
+      "value": "12-8",
+      "children": [
+        {
+          "label": "天然林",
+          "icon": "() => null",
+          "value": "12-8-1",
+          "colorCode": "rgba(59,277,0)"
+        }
+      ]
+    },
+    {
+      "label": "11、国家级公益乔林林（林种）",
+      "icon": "() => null",
+      "value": "12-9",
+      "children": [
+        {
+          "label": "防护林",
+          "icon": "() => null",
+          "value": "12-9-1",
+          "colorCode": "rgba(0,128,0)"
+        }
+      ]
+    },
+    {
+      "label": "12、国家级公益乔木林（林木权属）",
+      "icon": "() => null",
+      "value": "12-10",
+      "children": [
+        {
+          "label": "国有",
+          "icon": "() => null",
+          "value": "12-10-1",
+          "colorCode": "rgba(0,128,0)"
+        }
+      ]
+    },
+    {
+      "label": "13、国家级公益乔木林（主要树种）",
+      "icon": "() => null",
+      "value": "12-11",
+      "children": [
+        {
+          "label": "栎树林",
+          "icon": "() => null",
+          "value": "12-11-1",
+          "colorCode": "rgba(77,212,0)"
+        }
+      ]
+    },
+    {
+      "label": "14、国家级公益乔木林（龄组）",
+      "icon": "() => null",
+      "value": "12-12",
+      "children": [
+        {
+          "label": "幼龄林",
+          "icon": "() => null",
+          "value": "12-12-1",
+          "colorCode": "rgba(233255150)"
+        }
+      ]
+    }
+  ]
+}

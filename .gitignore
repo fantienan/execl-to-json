@@ -1,0 +1,11 @@
+/node_modules
+/build*
+/forest-resources-map*
+/dist*
+.DS_Store
+/.vscode/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+tsconfig.build.json
+/src/components/forestar-base/draw-query-geometry.js
